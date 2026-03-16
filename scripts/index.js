@@ -114,8 +114,7 @@ displayAllCards=(datas)=>{
     <div onclick="cardDetails(${data.id})" class="space-y-3 p-4 m-4 shadow-md w-full">
         <div class="flex justify-between items-center">
            <div>
-             <img src="./assets/Open-Status.png" alt="">
-            <img src="./assets/Closed- Status .png" alt="">
+            
            </div>
           <p class="priority">
            ${data.priority}
