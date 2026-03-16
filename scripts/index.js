@@ -100,14 +100,6 @@ displayAllCards=(datas)=>{
     
         const divs=document.createElement('div');
 
-   
-    //    "labels": [
-    //      "bug"
-    //    ],<br>85p
-  
-
-        
-        
         divs.innerHTML=`
         
      
@@ -142,7 +134,29 @@ displayAllCards=(datas)=>{
 }
         
    
+// const loadAllCards = (status="all") => {
 
+// const url="https://phi-lab-server.vercel.app/api/v1/lab/issues";
+
+// fetch(url)
+// .then(res=>res.json())
+// .then(data=>{
+
+// let issues=data.data;
+
+// if(status==="open"){
+// issues = issues.filter(issue => issue.status==="open");
+// }
+
+// else if(status==="closed"){
+// issues = issues.filter(issue => issue.status==="closed");
+// }
+
+// displayAllCards(issues);
+
+// })
+
+// }
     
   
 
