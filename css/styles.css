@@ -1,0 +1,15 @@
+body{
+    background-color:whitesmoke;
+}
+.active{
+    background-color: rgb(7, 7, 83);
+    color: white;
+}
+.cards{
+    border: 2px solid blueviolet;
+    padding:10px;
+
+}
+
+
+  
